@@ -1,4 +1,4 @@
-.post-slider {
+/* .post-slider {
     position: relative;
     margin-top: 60px;
 }
@@ -107,7 +107,6 @@
 .new-title {
     font-family: sans-serif;
     font-size: 15px;
-    /* font-weight: bold; */
     line-height: 20px;
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -118,4 +117,4 @@
 a {
     text-decoration: none;
     color: inherit;
-}
+} */
