@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html data-wf-page="653a0445e28b40d0149ac95d">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artmonik - Production Musicale, Artistique et Événementielle</title>
+    <meta name="description"
+        content="Artmonik est une entreprise dédiée à la production musicale, artistique et événementielle. Découvrez nos services, nos artistes et nos projets innovants pour faire de votre événement un moment inoubliable.">
+    <meta name="keywords"
+        content="Artmonik, production musicale, production artistique, organisation d'événements, événements, artistes, musique, art, spectacle">
+    <meta name="author" content="Artmonik">
+</head>
+
+<body class="body"
+    style="background-color: #F2F2F2; font-family: IBM Plex Sans,sans-serif; font-size: 1.6em; font-weight: 400; line-height: 1.5; color: #181721; margin-top: 36px; margin-bottom: 24px;">
+
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; width: 100%;">
+        <div style="width: 240px; height: 240px; border: 2px solid #9c9898; border-radius: 8px;">
+            <div id="player" style="border-radius: 8px;"></div>
+        </div>
+        <div>
+            <header style="color: #181721; text-align: center; position: relative; width: 100%; margin: 0 auto;">
+                <a href="#" class="header-link">
+                    <h1 class="header-title">Ronisia - Ronisia</h1>
+                    <p class="header-description">Choisir ma plateforme</p>
+                </a>
+            </header>
+        </div>
+        <div
+            style="position: relative; z-index: 3; overflow: hidden; border-radius: 8px; background-color: #fff; border: 1px solid #e6eaf2; width: 400px;">
+            <nav style="padding: 0; margin: 0; list-style: none; font: inherit; background-color: #fff;">
+                <div class="music-service-list-item">
+                    <div class="music-service-list-content">
+                        <img src="https://services.linkfire.com/logo_spotify_onlight.svg" alt="spotify logo" srcset=""
+                            class="music-service-list-img">
+                        <a href="#">
+                            <button type="button" class="btn btn-spotify">Ecouter</button>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="music-service-list-item">
+                    <div class="music-service-list-content">
+                        <img src="https://services.linkfire.com/logo_deezer_onlight.svg" alt="" srcset=""
+                            class="music-service-list-img">
+                        <a href="#">
+                            <button type="button" class="btn btn-deezer">Ecouter</button>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="music-service-list-item">
+                    <div class="music-service-list-content">
+                        <img src="https://services.linkfire.com/logo_applemusic_onlight.svg" alt="" srcset=""
+                            class="music-service-list-img">
+                        <a href="#">
+                            <button type="button" class="btn btn-applemusic">Ecouter</button>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="music-service-list-item">
+                    <div class="music-service-list-content">
+                        <img src="https://services.linkfire.com/logo_napster_onlight.svg" alt="" srcset=""
+                            class="music-service-list-img">
+                        <a href="#">
+                            <button type="button" class="btn btn-napster">Ecouter</button>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="music-service-list-item">
+
+                    <div class="music-service-list-content">
+                        <img src="https://services.linkfire.com/logo_itunes_onlight.svg" alt="" srcset=""
+                            class="music-service-list-img">
+                        <a href="#">
+                            <button type="button" class="btn btn-itunes">Télécharger</button>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <footer>
+            <div id="link-c-footer">
+                <p>
+                    By using this service, you agree to the use of cookies. 
+                    click here
+                    to manage your permissions.
+                </p>
+                <div style="margin-top: 12px">
+                    This page may contain affiliate links.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <style>
+        hr {
+            margin: 0;
+        }
+
+        .header-link {
+            text-decoration: none;
+            word-wrap: break-word;
+            display: block;
+            color: inherit;
+            padding: 16px 0 32px;
+            cursor: default;
+        }
+
+        .header-link:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a {
+            background-color: transparent;
+        }
+
+        .header-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0;
+            line-height: 24px;
+            color: #181721;
+        }
+
+        .header-description {
+            font-size: 16px;
+            font-weight: 400;
+            color: #454b5f;
+            line-height: 24px;
+            margin: 0;
+        }
+
+        .music-service-list-item {
+            margin: 0;
+            padding: 0 12px;
+            transition: background-color .1s ease;
+        }
+
+        .music-service-list-content {
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            height: 4.8rem;
+        }
+
+        .music-service-list-img {
+            float: left;
+            margin: .5rem;
+            height: 2.5rem;
+        }
+
+        footer {
+            width: 400px;
+            font-family: IBM Plex Sans, sans-serif;
+            margin-top: 12px;
+        }
+
+        #link-c-footer {
+            min-height: -webkit-fit-content;
+            min-height: -moz-fit-content;
+            min-height: fit-content;
+            color: #454b5f;
+            font-size: 12px;
+            font-family: IBM Plex Sans, sans-serif;
+            line-height: 1.31;
+            text-align: center;
+        }
+
+        .btn {
+            padding: 10px 30px;
+            border: none;
+            outline: none;
+            color: #fff;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 12px;
+        }
+
+        .btn::after {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #333;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+        }
+
+        .btn-spotify::before {
+            content: "";
+            background: -webkit-linear-gradient(45deg, #24CF5F, #70E898, #1A9E4A, #20B373, #58D25F, #94D6A5, #12D951, #C3F3D3);
+            background: -moz-linear-gradient(45deg, #24CF5F, #70E898, #1A9E4A, #20B373, #58D25F, #94D6A5, #12D951, #C3F3D3);
+            background: -o-linear-gradient(45deg, #24CF5F, #70E898, #1A9E4A, #20B373, #58D25F, #94D6A5, #12D951, #C3F3D3);
+            background: linear-gradient(45deg, #24CF5F, #70E898, #1A9E4A, #20B373, #58D25F, #94D6A5, #12D951, #C3F3D3);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 600%;
+            z-index: -1;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            filter: blur(8px);
+            animation: glowing 20s linear infinite;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+            opacity: 0;
+        }
+
+        .btn-spotify:hover::before {
+            opacity: 1;
+        }
+
+        .btn-spotify:active:after {
+            background: transparent;
+        }
+
+        .btn-spotify:active {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .btn-deezer::before {
+            content: "";
+            background: -webkit-linear-gradient(45deg, #A238FF, #C57FFF, #7A2CBB, #8533FF, #C238FF, #DAB7FF, #8A00FF, #E7CCFF);
+            background: -moz-linear-gradient(45deg, #A238FF, #C57FFF, #7A2CBB, #8533FF, #C238FF, #DAB7FF, #8A00FF, #E7CCFF);
+            background: -o-linear-gradient(45deg, #A238FF, #C57FFF, #7A2CBB, #8533FF, #C238FF, #DAB7FF, #8A00FF, #E7CCFF);
+            background: linear-gradient(45deg, #A238FF, #C57FFF, #7A2CBB, #8533FF, #C238FF, #DAB7FF, #8A00FF, #E7CCFF);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 600%;
+            z-index: -1;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            filter: blur(8px);
+            animation: glowing 20s linear infinite;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+            opacity: 0;
+        }
+
+        .btn-deezer:hover::before {
+            opacity: 1;
+        }
+
+        .btn-deezer:active:after {
+            background: transparent;
+        }
+
+        .btn-deezer:active {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .btn-applemusic::before {
+            content: "";
+            background: -webkit-linear-gradient(45deg, #FA1818, #FF5A5A, #B21212, #FF4C00, #FF3366, #E77A7A, #FF0000, #FFB3B3);
+            background: -moz-linear-gradient(45deg, #FA1818, #FF5A5A, #B21212, #FF4C00, #FF3366, #E77A7A, #FF0000, #FFB3B3);
+            background: -o-linear-gradient(45deg, #FA1818, #FF5A5A, #B21212, #FF4C00, #FF3366, #E77A7A, #FF0000, #FFB3B3);
+            background: linear-gradient(45deg, #FA1818, #FF5A5A, #B21212, #FF4C00, #FF3366, #E77A7A, #FF0000, #FFB3B3);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 600%;
+            z-index: -1;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            filter: blur(8px);
+            animation: glowing 20s linear infinite;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+            opacity: 0;
+        }
+
+        .btn-applemusic:hover::before {
+            opacity: 1;
+        }
+
+        .btn-applemusic:active:after {
+            background: transparent;
+        }
+
+        .btn-applemusic:active {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .btn-napster::before {
+            content: "";
+            background: -webkit-linear-gradient(45deg, #1048F0, #6B8DF8, #0C6BA8, #082F9C, #472DF1, #5A77BD, #A6B9F6, #87C6FF);
+            background: -moz-linear-gradient(45deg, #1048F0, #6B8DF8, #0C6BA8, #082F9C, #472DF1, #5A77BD, #A6B9F6, #87C6FF);
+            background: -o-linear-gradient(45deg, #1048F0, #6B8DF8, #0C6BA8, #082F9C, #472DF1, #5A77BD, #A6B9F6, #87C6FF);
+            background: linear-gradient(45deg, #1048F0, #6B8DF8, #0C6BA8, #082F9C, #472DF1, #5A77BD, #A6B9F6, #87C6FF);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 600%;
+            z-index: -1;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            filter: blur(8px);
+            animation: glowing 20s linear infinite;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+            opacity: 0;
+        }
+
+        .btn-napster:hover::before {
+            opacity: 1;
+        }
+
+        .btn-napster:active:after {
+            background: transparent;
+        }
+
+        .btn-napster:active {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .btn-itunes::before {
+            content: "";
+            background: -webkit-linear-gradient(45deg, #E34ACB, #F287DF, #B435A1, #C91AB8, #D96FBA, #F6B8E7, #FF97C7, #D474E8);
+            background: -moz-linear-gradient(45deg, #E34ACB, #F287DF, #B435A1, #C91AB8, #D96FBA, #F6B8E7, #FF97C7, #D474E8);
+            background: -o-linear-gradient(45deg, #E34ACB, #F287DF, #B435A1, #C91AB8, #D96FBA, #F6B8E7, #FF97C7, #D474E8);
+            background: linear-gradient(45deg, #E34ACB, #F287DF, #B435A1, #C91AB8, #D96FBA, #F6B8E7, #FF97C7, #D474E8);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 600%;
+            z-index: -1;
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            filter: blur(8px);
+            animation: glowing 20s linear infinite;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+            opacity: 0;
+        }
+
+        .btn-itunes:hover::before {
+            opacity: 1;
+        }
+
+        .btn-itunes:active:after {
+            background: transparent;
+        }
+
+        .btn-itunes:active {
+            color: #000;
+            font-weight: bold;
+        }
+
+        @keyframes glowing {
+            0% {
+                background-position: 0 0;
+            }
+
+            50% {
+                background-position: 400% 0;
+            }
+
+            100% {
+                background-position: 0 0;
+            }
+        }
+    </style>
+
+    <script>
+        // This function creates an <iframe> (and YouTube player)
+        // after the API code downloads.
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '240',
+                width: '240',
+                videoId: '4NRXx6U8ABQ',  // Use only the video ID here
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        // The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+
+        // The API calls this function when the player's state changes.
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING) {
+                // Video is playing
+            }
+        }
+    </script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+
+</html>
